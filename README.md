@@ -1,20 +1,20 @@
-Detect whether an image is AI-generated or human-made using EfficientNet-B0 (transfer learning).
+Detect whether an image is AI-generated or human-made using ML models. 
+This project explores machine learning models for detecting AI-generated images with a focus on achieving high precision and F1 scores (~80%).
+After comparison, the strongest performing one is determined as the new baseline model for future training.
 
 1. Install requirements:
-```bash
+```
 pip install -r requirements.txt
 ```
 
 2. Train the model:
-```bash
-python -m src.train --data-dir data --epochs 5
+```
+python train.py
 ```
 
 3. Evaluate the model:
-```bash
-python -m src.eval --data-dir data --checkpoint models/best_model.pt
+```
+python evaluate.py
 ```
 
-## Key Metrics
-The training script prints accuracy, precision, recall, and F1.  
-Success = F1 >= 0.80 and Precision >= 0.80.
+This project demonstrates how machine learning can help distinguish fact from fabrication in a world where AI-generated media is everywhere.
