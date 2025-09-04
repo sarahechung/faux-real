@@ -12,7 +12,12 @@ pip install -r requirements.txt
 python train.py
 ```
 
-3. Evaluate the model:
+3. Test the model
+```
+python test.py
+```
+
+4. Evaluate the model:
 ```
 python evaluate.py
 ```
