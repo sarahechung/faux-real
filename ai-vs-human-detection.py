@@ -1,34 +1,3 @@
-"""
-Faux Real: Best-Performing Model — CNN with Transfer Learning
-
-This script trains and evaluates a binary classifier to detect AI-generated images vs real images
-using transfer learning (EfficientNetB0). It reports Accuracy, Precision, Recall, F1, Confusion
-Matrix, and ROC-AUC. It saves the best model weights and a classification report.
-
-Directory layout expected (change paths with CLI args):
-
-DATA_ROOT/
-  train/
-    real/
-    ai/
-  val/
-    real/
-    ai/
-  test/
-    real/
-    ai/
-
-Usage (example):
-  python faux_real_transfer_learning.py \
-      --data_root /path/to/DATA_ROOT \
-      --img_size 224 \
-      --batch_size 32 \
-      --epochs 20 \
-      --model_out ./best_faux_real.keras
-
-Requirements: tensorflow>=2.12, scikit-learn, matplotlib, numpy
-"""
-
 import argparse
 import itertools
 import os
