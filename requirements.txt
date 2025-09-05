@@ -7,6 +7,3 @@ scikit-learn>=1.0.0
 tensorflow>=2.8.0
 kaggle>=1.5.12
 jupyter>=1.0.0
-
-'' Installation:
-pip install -r requirements.txt
