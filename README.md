@@ -7,19 +7,4 @@ After comparison, the strongest performing one is determined as the new baseline
 pip install -r requirements.txt
 ```
 
-2. Train the model:
-```
-python train.py
-```
-
-3. Test the model
-```
-python test.py
-```
-
-4. Evaluate the model:
-```
-python evaluate.py
-```
-
 This project demonstrates how machine learning can help distinguish fact from fabrication in a world where AI-generated media is everywhere.
